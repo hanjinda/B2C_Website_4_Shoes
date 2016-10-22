@@ -1,0 +1,247 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+.centered-form{
+    margin-top: 60px;
+}
+
+.centered-form .panel{
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+
+/*********************************************
+                Call Bootstrap
+*********************************************/
+
+/*@import url("css/bootstrap.min.css");*/
+/*@import url("css/bootstrap-override.css");*/
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+/*********************************************
+                Theme Elements
+*********************************************/
+
+.gold{
+    color: #FFBF00;
+}
+
+/*********************************************
+                    PRODUCTS
+*********************************************/
+
+.product{
+    border: 1px solid #dddddd;
+    height: 321px;
+}
+
+.product>img{
+    max-width: 230px;
+}
+
+.product-rating{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.product-title{
+    font-size: 20px;
+}
+
+.product-desc{
+    font-size: 14px;
+}
+
+.product-price{
+    font-size: 22px;
+}
+
+.product-stock{
+    color: #74DF00;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product-info{
+        margin-top: 50px;
+}
+
+/*********************************************
+                    VIEW
+*********************************************/
+
+.content-wrapper {
+    max-width: 1140px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.container-fluid{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.view-wrapper {
+    float: right;
+    max-width: 70%;
+    margin-top: 25px;
+}
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 100%;
+}
+
+/*********************************************
+                ITEM 
+*********************************************/
+
+.service1-items {
+    padding: 0px 0 0px 0;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: 321px;
+    width: 130px;
+}
+
+.service1-item {
+    height: 107px;
+    width: 120px;
+    display: block;
+    float: left;
+    position: relative;
+    padding-right: 20px;
+    border-right: 1px solid #DDD;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+}
+
+.service1-item > img {
+    max-height: 110px;
+    max-width: 110px;
+    opacity: 0.6;
+    transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+}
+
+.service1-item > img:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.service-image-left {
+    padding-right: 50px;
+}
+
+.service-image-right {
+    padding-left: 50px;
+}
+
+.service-image-left > center > img,.service-image-right > center > img{
+    max-height: 600px;
+}
+
+
+/*-------- cart --------*/
+ul.dropdown-cart{
+    min-width:250px;
+}
+ul.dropdown-cart li .item{
+    display:block;
+    padding:3px 10px;
+    margin: 3px 0;
+}
+ul.dropdown-cart li .item:hover{
+    background-color:#f3f3f3;
+}
+ul.dropdown-cart li .item:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+ul.dropdown-cart li .item-left{
+    float:left;
+}
+ul.dropdown-cart li .item-left img,
+ul.dropdown-cart li .item-left span.item-info{
+    float:left;
+}
+ul.dropdown-cart li .item-left span.item-info{
+    margin-left:10px;   
+}
+ul.dropdown-cart li .item-left span.item-info span{
+    display:block;
+}
+ul.dropdown-cart li .item-right{
+    float:right;
+}
+ul.dropdown-cart li .item-right button{
+    margin-top:14px;
+}
+
+/* ----- general ---- */
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
